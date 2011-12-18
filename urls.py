@@ -3,7 +3,7 @@ from mainapp.views import main_page
 
 urlpatterns = patterns('',
     (r'^$', main_page),
-    (r'^login/$', django.contrib.auth.views.login ),
+    (r'^login/$', 'django.contrib.auth.views.login' ),
     # Examples:
     # url(r'^$', 'mailing_system.views.home', name='home'),
     # url(r'^mailing_system/', include('mailing_system.foo.urls')),
