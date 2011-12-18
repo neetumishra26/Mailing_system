@@ -8,6 +8,8 @@ from django.contrib.auth import logout
 from django.template.context import RequestContext
 
 def main_page(request):
+    if request.method == 'GET':
+        return render_to_response('main_page.html')
     if request.method == 'POST':
         #form = Form(request.POST)
         current_user = User.objects.get(username=request.POST['username'])
