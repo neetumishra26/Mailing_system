@@ -32,3 +32,6 @@ def main_page(request):
 def logout_page(request):
     logout(request)
     return HttpResponseRedirect('/')
+
+def compose_mail(request):
+    return render_to_response('project/compose_mail.html')
