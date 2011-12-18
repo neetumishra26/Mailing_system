@@ -5,8 +5,8 @@
     <title>{{ head_title }}</title>
 </head>
 <body>
-    {% if user %}
-        <p>Welcome {{ user.username }}!</p>
+    {% if user_name %}
+        <p>Welcome {{ user_name }}!</p>
     {% else %}
         <p>You are not logged in!!</p>
         <a href="{% url django.contrib.auth.views.login %}">Sign in</a>
