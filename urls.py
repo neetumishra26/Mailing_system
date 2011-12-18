@@ -1,14 +1,9 @@
 from django.conf.urls.defaults import patterns, include, url
-
-# Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
-from login.views import login
 from mainapp.views import main_page
 
 urlpatterns = patterns('',
     (r'^$', main_page),
-    (r'^login/$', login),
+    (r'^login/$', django.contrib.auth.views.login ),
     # Examples:
     # url(r'^$', 'mailing_system.views.home', name='home'),
     # url(r'^mailing_system/', include('mailing_system.foo.urls')),
