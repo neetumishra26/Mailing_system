@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282b39f5-7d14-456c-b654-80c1a97e575f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mailingsystemdb" afterPath="$PROJECT_DIR$/mailingsystemdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main_page.html" afterPath="$PROJECT_DIR$/templates/main_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/project/compose_mail.html" afterPath="$PROJECT_DIR$/templates/project/compose_mail.html" />
-    </list>
+    <list default="true" id="282b39f5-7d14-456c-b654-80c1a97e575f" name="Default" comment="" />
     <ignored path="mailing_system.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compose_mail.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="compose_mail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/project/compose_mail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.4045977">
+            <state line="9" column="14" selection-start="269" selection-end="269" vertical-scroll-proportion="-7.071429">
               <folding />
             </state>
           </provider>
@@ -83,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="36" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
+            <state line="30" column="24" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.65701556">
               <folding />
             </state>
           </provider>
@@ -126,8 +120,8 @@
         <option value="$PROJECT_DIR$/templates/compose_mail.html" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/templates/main_page.html" />
-        <option value="$PROJECT_DIR$/mainapp/views.py" />
         <option value="$PROJECT_DIR$/templates/project/compose_mail.html" />
+        <option value="$PROJECT_DIR$/mainapp/views.py" />
       </list>
     </option>
   </component>
@@ -492,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="21" selection-start="216" selection-end="273" vertical-scroll-proportion="-7.071429">
@@ -508,7 +495,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/project/compose_mail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.4045977">
+        <state line="9" column="14" selection-start="269" selection-end="269" vertical-scroll-proportion="-7.071429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="24" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.65701556">
           <folding />
         </state>
       </provider>

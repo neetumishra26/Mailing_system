@@ -20,10 +20,7 @@ def main_page(request):
         else:
             return render_to_response('registration/login.html',
                     {'error_message': "Your username and password didn't match. Please try again.",
-                     'user_name': current_user.username
-                #    , 'form':form
-                },
-                     context_instance=RequestContext(request))
+                     'user_name': current_user.username }, context_instance=RequestContext(request))
     return render_to_response('main_page.html')
 
 def logout_page(request):
@@ -35,7 +32,7 @@ def compose_mail(request):
         current_user = User.objects.get(username=request.POST['username'])
         composed_email = Email(to_email_id=request.POST['to_id'],from_email_id=current_user.email,subject=request.POST['subject'],content=request.POST['content'])
         composed_email.save()
-        return render_to_response('main_page.html', Context({
+        return render_to_response('main_page.html',{
                 'user_name': current_user.username,
-                'success_message': 'Your Email sent successfully'}))
+                'success_message': 'Your Email sent successfully'})
     return render_to_response('project/compose_mail.html')
