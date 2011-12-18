@@ -7,11 +7,13 @@
 <body>
     <h3>User Login</h3>
     {% if form.errors %}
-        <p>Your username and password didn't match. Please try again.</p>
+        <p style="color: 'red'">Your username and password didn't match. Please try again.</p>
     {% endif %}
-    <form action="" method="post">
+    <form action="/" method="post">
+        {% csrf_token %}
         <p><label for="id_username">Username: </label>{{ form.username }}</p>
         <p><label for="id_password">Password: </label>{{ form.password }}</p>
+        <input type="hidden" name="next" value="/">
         <input type="submit" value="login">
     </form>
 </body>

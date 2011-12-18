@@ -5,8 +5,11 @@
     <title>{{ head_title }}</title>
 </head>
 <body>
-    <h1>{{ page_title }}</h1>
-    <p>{{ page_body }}</p>
-    <a href="{% url django.contrib.auth.views.login %}">Sign In</a>
+    {% if user %}
+        <p>Welcome {{ user.username }}!</p>
+    {% else %}
+        <p>You are not logged in!!</p>
+        <a href="{% url django.contrib.auth.views.login %}">Sign in</a>
+    {% endif %}
 </body>
 </html>
