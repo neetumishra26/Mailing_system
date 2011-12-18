@@ -2,9 +2,12 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>{{ head_title }}</title>
+    <title>Mailing System</title>
 </head>
 <body>
+    {% if success_message %}
+        <p style="color:#aac000">{{ success_message }}</p>
+    {% endif %}
     {% if user_name %}
         <p>Welcome {{ user_name }}!</p>
         <a href="/compose">Compose Mail</a> |

@@ -5,6 +5,13 @@
     <title>Compose Email</title>
 </head>
 <body>
-    compose_mail
+    <form action="" method="post">
+        {% csrf_token %}
+        <label>To:</label><input type="text" name="to" id="to_id" />
+        <label>Subject:</label><input type="text" name="subject" id="subject" />
+        <label>Content:</label><input type="text" name="content" id="content" />
+        <input type="reset" value="Clear">
+        <input type="submit" value="Send">
+    </form>
 </body>
 </html>

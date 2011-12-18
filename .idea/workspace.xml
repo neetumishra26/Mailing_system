@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="282b39f5-7d14-456c-b654-80c1a97e575f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mailingsystemdb" afterPath="$PROJECT_DIR$/mailingsystemdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main_page.html" afterPath="$PROJECT_DIR$/templates/main_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/project/compose_mail.html" afterPath="$PROJECT_DIR$/templates/project/compose_mail.html" />
     </list>
     <ignored path="mailing_system.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_page.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="45" selection-start="284" selection-end="284" vertical-scroll-proportion="0.22969837">
+            <state line="8" column="10" selection-start="213" selection-end="213" vertical-scroll-proportion="-6.285714">
               <folding />
             </state>
           </provider>
@@ -52,10 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compose_mail.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="compose_mail.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/project/compose_mail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.142857">
+            <state line="16" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.4045977">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="4" selection-start="89" selection-end="100" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,7 +77,7 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="407" selection-end="416" vertical-scroll-proportion="-10.214286">
+            <state line="9" column="21" selection-start="216" selection-end="273" vertical-scroll-proportion="-7.071429">
               <folding />
             </state>
           </provider>
@@ -73,7 +86,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="43" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+            <state line="26" column="36" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,9 +125,9 @@
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/templates/compose_mail.html" />
         <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/templates/main_page.html" />
         <option value="$PROJECT_DIR$/mainapp/views.py" />
         <option value="$PROJECT_DIR$/templates/project/compose_mail.html" />
-        <option value="$PROJECT_DIR$/templates/main_page.html" />
       </list>
     </option>
   </component>
@@ -145,6 +158,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,7 +251,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,14 +378,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1085" extended-state="0" />
+    <frame x="-8" y="-5" width="1936" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24868004" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -440,14 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="369" column="19" selection-start="16958" selection-end="16958" vertical-scroll-proportion="0.949829">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" />
+        <state line="369" column="19" selection-start="16958" selection-end="16958" vertical-scroll-proportion="0.949829" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mailingsystemdb">
@@ -457,7 +463,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="25" selection-start="5004" selection-end="5004" vertical-scroll-proportion="0.0">
+        <state line="143" column="25" selection-start="5004" selection-end="5004" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="89" selection-end="100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -469,35 +485,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/main_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="43" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+        <state line="8" column="10" selection-start="213" selection-end="213" vertical-scroll-proportion="-6.285714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/project/compose_mail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.142857">
+        <state line="26" column="36" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="407" selection-end="416" vertical-scroll-proportion="-10.214286">
+        <state line="9" column="21" selection-start="216" selection-end="273" vertical-scroll-proportion="-7.071429">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main_page.html">
+    <entry file="file://$PROJECT_DIR$/templates/project/compose_mail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="284" selection-end="284" vertical-scroll-proportion="0.22969837">
+        <state line="16" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.4045977">
           <folding />
         </state>
       </provider>
